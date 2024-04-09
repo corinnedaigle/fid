@@ -1,0 +1,44 @@
+a {
+    color: #207695;
+    text-decoration: none;
+  }
+
+a:hover { 
+    color: #259eca; 
+  }
+  
+a:active {
+    color: #082c39;
+  }
+
+body {
+    background-color: #ffffff;
+}
+
+footer {
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #2196c1;
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    color: #dfedff;
+}
+
+h2 {
+    font-family: "Bebas Neue", sans-serif;
+    color: #018f9f;
+}
+
+p {
+    font-family: Arial, sans-serif;
+}
+
+ul {
+    font-family: Arial, sans-serif;
+}
