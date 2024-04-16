@@ -1,19 +1,21 @@
+@charset "UTF-8";
 body {
-  background: #ede5ac url(images/blackgoose.png) no-repeat center 100px fixed;
   font-family: Georgia, serif;
   font-size: 100%;
   line-height: 175%;
   margin: 0 15% 0;
+  background: #d2dc9d url(images/blackgoose.png) no-repeat center 100px fixed;
 }
 header {
-  background:  center top url(images/orangedot.png) repeat-x;
-  background: url(images/orangedot.png) center top repeat-x, url(images/gooseshadow.png) 90% bottom no-repeat; 
   margin-top: 0;
   padding: 3em 1em 2em 1em;
   text-align: center;
-  background-color: rgba(255, 255, 255, .5);
-
-
+  background: url(images/orangedot.png) center top repeat-x;
+  background: 
+    url(images/orangedot.png) left top repeat-y,
+    url(images/orangedot.png) right top repeat-y,
+    url(images/gooseshadow.png) 90% bottom no-repeat;
+  background-color: rgba(255,255,255,.5);
 }
 
 a {
@@ -25,7 +27,7 @@ a:visited {
     color: #ad6001; 
 }
 
-a:hover {
+a:focus, a:hover {
   background-color: #ffffff; 
   color: #f7b361;
 }
@@ -35,30 +37,27 @@ a:active {
 }
 
 h1 {
-  color: #f7941e; 
   font: bold 1.5em Georgia, serif;
-  text-shadow: .1em .1em .2em gray;
+  text-shadow: .05em .05em .1em lightslategray;
+  color: #f7941e;
 }
-
 h2 {
-  color: #f7941e;  
   font-size: 1em;
   text-transform: uppercase;
   letter-spacing: .5em;
   text-align: center;
+  color: #f7941e;
 }
-
 dt {
   font-weight: bold;
 }
-
 strong {
   font-style: italic;
 }
 ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 #info p {
   font-style: italic;
@@ -80,3 +79,4 @@ h2 + p {
   text-align: center;
   font-style: italic;
 }
+
